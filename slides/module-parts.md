@@ -5,10 +5,10 @@
 
 ```
 modules:
-    enabled: [Laravel4.ORM, REST.Json]  
-```
-
-```
-modules:
-    enabled: [REST.Xml]  
+    enabled: 
+        - Laravel4:
+            part: ORM
+        - REST:
+            part: Json
+            depends: Laravel4
 ```

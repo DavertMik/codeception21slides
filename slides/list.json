@@ -14,5 +14,8 @@
     "merge-environments.md",
     "module-parts.md",
     "session-snapshot.md",
+    "guzzle.md",
+    "html.md",
+    "substeps.md",
     "when.md"
 ]
